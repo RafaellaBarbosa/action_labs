@@ -39,11 +39,21 @@ class TextStyles {
     color: color ?? AppColors.branded,
   );
 
-  static TextStyle buttonText(Color? color) => TextStyle(
-    fontFamily: fontFamily,
+  static TextStyle buttonText({Color? color}) => TextStyle(
+    fontFamily: 'Roboto',
     fontSize: 16,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w500,
+    letterSpacing: 0,
+    height: 1.5,
+    textBaseline: TextBaseline.alphabetic,
     color: color ?? AppColors.branded,
+  );
+
+  static TextStyle formText({Color? color}) => TextStyle(
+    fontFamily: 'Roboto',
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    color: color ?? AppColors.dark02,
   );
 
   static TextStyle smallSemibold({Color? color}) => TextStyle(
@@ -52,10 +62,13 @@ class TextStyles {
     fontWeight: FontWeight.w600,
     color: color ?? AppColors.branded,
   );
-  static TextStyle formText({Color? color}) => TextStyle(
+
+  static TextStyle xsmallRegular({Color? color}) => TextStyle(
     fontFamily: 'Roboto',
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: FontWeight.w400,
-    color: color ?? AppColors.dark02,
+    letterSpacing: 0,
+    height: 1.33,
+    color: color ?? AppColors.branded,
   );
 }
