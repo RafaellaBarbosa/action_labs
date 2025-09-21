@@ -1,4 +1,4 @@
-import 'package:action_labs/comopents/exchange_history_card.dart';
+import 'package:action_labs/widgets/exchange_history_card.dart';
 import 'package:action_labs/data/model/exchange_history_model.dart';
 import 'package:action_labs/utils/colors.dart';
 import 'package:action_labs/utils/text_styles.dart';

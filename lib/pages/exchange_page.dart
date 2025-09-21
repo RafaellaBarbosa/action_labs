@@ -1,9 +1,9 @@
 import 'package:action_labs/bloc/exchange_cubit.dart';
-import 'package:action_labs/comopents/button_widget.dart';
-import 'package:action_labs/comopents/copyright_bottom.dart';
-import 'package:action_labs/comopents/exchange_result_card.dart';
-import 'package:action_labs/comopents/header_widget.dart';
-import 'package:action_labs/comopents/text_form_field_widget.dart';
+import 'package:action_labs/widgets/button_widget.dart';
+import 'package:action_labs/widgets/copyright_bottom.dart';
+import 'package:action_labs/widgets/exchange_result_card.dart';
+import 'package:action_labs/widgets/header_widget.dart';
+import 'package:action_labs/widgets/text_form_field_widget.dart';
 import 'package:action_labs/utils/colors.dart';
 import 'package:action_labs/utils/text_styles.dart';
 import 'package:flutter/material.dart';
